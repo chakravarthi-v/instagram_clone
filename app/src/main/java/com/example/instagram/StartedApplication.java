@@ -13,7 +13,7 @@ public class StartedApplication extends Application {
     @Override
     public void onCreate() {
         super.onCreate();
-        //paswword=b38MzIonl7eL
+        
 // Enable Local Datastore.
         Parse.enableLocalDatastore(this);
         /* user + M4vSrVYUj6yt*/
