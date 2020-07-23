@@ -16,16 +16,16 @@ public class StartedApplication extends Application {
         
 // Enable Local Datastore.
         Parse.enableLocalDatastore(this);
-        /* user + M4vSrVYUj6yt*/
-// Add your initialization code here
+        
+
         Parse.initialize(new Parse.Configuration.Builder(getApplicationContext())
                 .applicationId("myappID")
-                .clientKey("b38MzIonl7eL")
+                .clientKey("Add your masterkey")(cant provide here with masterkey since its the acces key to the parse dashboard)
                 .server("http://13.59.75.47/parse")
                 .build()
         );
 
-        //ParseUser.enableAutomaticUser();
+        
         ParseACL defaultACL = new ParseACL();
         defaultACL.setPublicReadAccess(true);
         defaultACL.setPublicWriteAccess(true);
